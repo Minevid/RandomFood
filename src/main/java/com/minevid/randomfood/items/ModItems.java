@@ -2,14 +2,13 @@ package com.minevid.randomfood.items;
 
 import com.minevid.randomfood.items.blades.ItemDiamondBlade;
 import com.minevid.randomfood.items.blades.ItemGoldBlade;
-import com.minevid.randomfood.items.blades.ItemIronBlades;
+import com.minevid.randomfood.items.blades.ItemIronBlade;
 import com.minevid.randomfood.items.handles.*;
 import com.minevid.randomfood.items.knifes.DiamondKnifes.*;
 import com.minevid.randomfood.items.knifes.GoldKnifes.*;
 import com.minevid.randomfood.items.knifes.IronKnifes.*;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import scala.tools.nsc.typechecker.Typers;
 
 /**
  * Created by Reynout on 7/03/2017.
@@ -17,7 +16,7 @@ import scala.tools.nsc.typechecker.Typers;
 public class ModItems {
 
     //Make Private instances
-    public static ItemIronBlades ironBlades;
+    public static ItemIronBlade ironBlade;
     public static ItemDiamondBlade diamondBlade;
     public static ItemGoldBlade goldBlade;
 
@@ -91,7 +90,7 @@ public class ModItems {
 
 
     public static void init() {
-        ironBlades = new ItemIronBlades();
+        ironBlade = new ItemIronBlade();
         diamondBlade = new ItemDiamondBlade();
         goldBlade = new ItemGoldBlade();
 
@@ -170,7 +169,7 @@ public class ModItems {
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-        ironBlades.initModel();
+        ironBlade.initModel();
         diamondBlade.initModel();
         goldBlade.initModel();
         blackIronKnife.initModel();

@@ -12,4 +12,11 @@ public class References {
     public static final String CLIENT_PROXY_CLASS = "com.minevid.randomfood.proxy.ClientProxy";
     public static final String SERVER_PROXY_CLASS = "com.minevid.randomfood.proxy.ServerProxy";
 
+    public static final int MaxStackSizeTool = 1;
+    public static final int MaxDamageGoldTool = 33-1;
+    public static final int MaxDamageIronTool = 251-1;
+    public static final int MaxDamageDiamondTool = 1562-1;
+
+
+
 }

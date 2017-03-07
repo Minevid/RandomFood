@@ -12,8 +12,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 /**
  * Created by Reynout on 7/03/2017.
  */
-public class ItemIronBlades  extends Item{
-    public ItemIronBlades(){
+public class ItemIronBlade extends Item{
+    public ItemIronBlade(){
         setRegistryName("ironblade");
         setUnlocalizedName(References.MOD_ID + ".ironblade");
         GameRegistry.register(this);
