@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+@Mod(modid = References.MOD_ID, name = References.MOD_NAME, version = References.VERSION)
 
 /**
  * Created by Reynout on 7/03/2017.
@@ -18,6 +19,7 @@ public class RandomFood {
 
     @SidedProxy(clientSide = References.CLIENT_PROXY_CLASS, serverSide = References.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
+
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

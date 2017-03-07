@@ -12,7 +12,7 @@ public class CreativeTabRF {
     public static final CreativeTabs RF_TAB = new CreativeTabs(References.MOD_ID) {
         @Override
         public Item getTabIconItem() {
-            return null;
+            return ModItems.ironBlades;
         }
         @Override
         public String getTranslatedTabLabel(){
