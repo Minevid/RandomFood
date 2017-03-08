@@ -10,13 +10,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 /**
  * Created by Reynout on 7/03/2017.
  */
-public class ModCrafting {
+public class ModItemCrafting {
 
     public static void initCrafting() {
         //Blades
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.ironBlade), " A ", " A ", 'A', new ItemStack(Items.IRON_INGOT));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.goldBlade), " A ", " A ", 'A', new ItemStack(Items.GOLD_INGOT));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.diamondBlade), " A ", " A ", 'A', new ItemStack(Items.DIAMOND));
+
         //Handles
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blackHandle), "  A", " B ", "A  ", 'A', new ItemStack(Items.STICK), 'B', new ItemStack(Items.DYE));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blueHandle), "  A", " B ", "A  ", 'A', new ItemStack(Items.STICK), 'B', new ItemStack(Items.DYE, 1, 4));
@@ -34,6 +35,7 @@ public class ModCrafting {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.silverHandle), "  A", " B ", "A  ", 'A', new ItemStack(Items.STICK), 'B', new ItemStack(Items.DYE, 1, 7));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.whiteHandle), "  A", " B ", "A  ", 'A', new ItemStack(Items.STICK), 'B', new ItemStack(Items.DYE, 1, 15));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.yellowHandle), "  A", " B ", "A  ", 'A', new ItemStack(Items.STICK), 'B', new ItemStack(Items.DYE, 1, 11));
+
         //IronKnifes
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blackIronKnife), " A ", "B  ", 'A', new ItemStack(ModItems.ironBlade), 'B', new ItemStack(ModItems.blackHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blueIronKnife), " A ", "B  ", 'A', new ItemStack(ModItems.ironBlade), 'B', new ItemStack(ModItems.blueHandle));
@@ -51,6 +53,7 @@ public class ModCrafting {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.silverIronKnife), " A ", "B  ", 'A', new ItemStack(ModItems.ironBlade), 'B', new ItemStack(ModItems.silverHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.whiteIronKnife), " A ", "B  ", 'A', new ItemStack(ModItems.ironBlade), 'B', new ItemStack(ModItems.whiteHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.yellowIronKnife), " A ", "B  ", 'A', new ItemStack(ModItems.ironBlade), 'B', new ItemStack(ModItems.yellowHandle));
+
         //GoldKnifes
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blackGoldKnife), " A ", "B  ", 'A', new ItemStack(ModItems.goldBlade), 'B', new ItemStack(ModItems.blackHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blueGoldKnife), " A ", "B  ", 'A', new ItemStack(ModItems.goldBlade), 'B', new ItemStack(ModItems.blueHandle));
@@ -68,6 +71,7 @@ public class ModCrafting {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.silverGoldKnife), " A ", "B  ", 'A', new ItemStack(ModItems.goldBlade), 'B', new ItemStack(ModItems.silverHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.whiteGoldKnife), " A ", "B  ", 'A', new ItemStack(ModItems.goldBlade), 'B', new ItemStack(ModItems.whiteHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.yellowGoldKnife), " A ", "B  ", 'A', new ItemStack(ModItems.goldBlade), 'B', new ItemStack(ModItems.yellowHandle));
+
         //Diamond Knifes
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blackDiamondKnife), " A ", "B  ", 'A', new ItemStack(ModItems.diamondBlade), 'B', new ItemStack(ModItems.blackHandle));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.blueDiamondKnife), " A ", "B  ", 'A', new ItemStack(ModItems.diamondBlade), 'B', new ItemStack(ModItems.blueHandle));
