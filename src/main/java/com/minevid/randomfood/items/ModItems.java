@@ -31,6 +31,7 @@ public class ModItems {
     public static ItemMagentaIronKnife magentaIronKnife;
     public static ItemOrangeIronKnife orangeIronKnife;
     public static ItemPinkIronKnife pinkIronKnife;
+    public static ItemPurpleIronKnife purpleIronKnife;
     public static ItemRedIronKnife redIronKnife;
     public static ItemSilverIronKnife silverIronKnife;
     public static ItemWhiteIronKnife whiteIronKnife;
@@ -105,6 +106,7 @@ public class ModItems {
         magentaIronKnife = new ItemMagentaIronKnife();
         orangeIronKnife = new ItemOrangeIronKnife();
         pinkIronKnife = new ItemPinkIronKnife();
+        purpleIronKnife = new ItemPurpleIronKnife();
         redIronKnife = new ItemRedIronKnife();
         silverIronKnife = new ItemSilverIronKnife();
         whiteIronKnife = new ItemWhiteIronKnife();
@@ -183,6 +185,7 @@ public class ModItems {
         magentaIronKnife.initModel();
         orangeIronKnife.initModel();
         pinkIronKnife.initModel();
+        purpleIronKnife.initModel();
         redIronKnife.initModel();
         silverIronKnife.initModel();
         whiteIronKnife.initModel();
