@@ -1,5 +1,6 @@
 package com.minevid.randomfood.proxy;
 
+import com.minevid.randomfood.blocks.ModBlocks;
 import com.minevid.randomfood.items.ModItems;
 import com.minevid.randomfood.recipes.ModItemCrafting;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -14,6 +15,7 @@ public abstract class CommonProxy  {
     public void preInit(FMLPreInitializationEvent event)
     {
         ModItems.init();
+        ModBlocks.init();
     }
 
     public void init(FMLInitializationEvent event)
