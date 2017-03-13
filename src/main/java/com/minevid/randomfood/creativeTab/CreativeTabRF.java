@@ -1,5 +1,6 @@
 package com.minevid.randomfood.creativeTab;
 
+import com.minevid.randomfood.blocks.ModBlocks;
 import com.minevid.randomfood.items.ModItems;
 import com.minevid.randomfood.references.References;
 import net.minecraft.creativetab.CreativeTabs;
@@ -12,7 +13,7 @@ public class CreativeTabRF {
     public static final CreativeTabs RF_TAB = new CreativeTabs(References.MOD_ID) {
         @Override
         public Item getTabIconItem() {
-            return ModItems.ironBlade;
+            return Item.getItemFromBlock(ModBlocks.molybdenumOre);
         }
         @Override
         public String getTranslatedTabLabel(){

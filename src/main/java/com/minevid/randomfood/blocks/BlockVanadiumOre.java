@@ -13,23 +13,22 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 /**
- * Created by Reynout on 9/03/2017.
+ * Created by Reynout on 10/03/2017.
  */
-public class BlockMolybdenumOre extends Block {
-
-    public BlockMolybdenumOre()
+public class BlockVanadiumOre extends Block {
+    public BlockVanadiumOre()
     {
         super(Material.ROCK);
-        setUnlocalizedName(References.MOD_ID + ".molybdenumore");
-        setRegistryName("molybdenumore");
+        setRegistryName("vanadiumore");
+        setUnlocalizedName(References.MOD_ID + ".vanadiumore");
         GameRegistry.register(this);
         GameRegistry.register(new ItemBlock(this), getRegistryName());
         setCreativeTab(CreativeTabRF.RF_TAB);
-
     }
+
+
     @SideOnly(Side.CLIENT)
     public void initModel() {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName(), "inventory"));
     }
-
 }

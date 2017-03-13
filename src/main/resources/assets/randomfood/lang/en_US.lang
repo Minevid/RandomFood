@@ -65,3 +65,7 @@ item.randomfood.reddiamondknife.name=Diamond knife (Red)
 item.randomfood.silverdiamondknife.name=Diamond knife (Silver)
 item.randomfood.whitediamondknife.name=Diamond knife (White)
 item.randomfood.yellowdiamondknife.name=Diamond knife (Yellow)
+tile.randomfood.chroniumore.name=Chronium Ore
+tile.randomfood.molybdenumore.name=Molybdenum Ore
+tile.randomfood.nickelore.name=Nickel Ore
+tile.randomfood.vanadiumore.name=Vanadium Ore

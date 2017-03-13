@@ -1,5 +1,6 @@
 package com.minevid.randomfood.proxy;
 
+import com.minevid.randomfood.blocks.ModBlocks;
 import com.minevid.randomfood.items.ModItems;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -14,6 +15,7 @@ public class ClientProxy extends CommonProxy {
     {
         super.preInit(event);
         ModItems.initModels();
+        ModBlocks.initModels();
 
     }
     @Override
